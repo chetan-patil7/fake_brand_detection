@@ -13,25 +13,6 @@ st.title('Fake Logo Detection System')
 
 uploaded_image = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
-# if uploaded_image is not None:
-#     # Preprocess the image
-#     img = Image.open(uploaded_image)
-#     img = img.convert('L')  # Convert to grayscale
-#     img = img.resize((256, 256))  # Resize to match the model's input shape
-#     img_array = np.array(img)
-#     img_array = img_array / 255.0  # Normalize pixel values
-#     #img_array = np.expand_dims(img_array, axis=-1)  # Add channel dimension
-#     img_array = np.expand_dims(img_array, axis=0)  # Add batch dimension
-
-#     # Make predictions
-#     prediction = model.predict(img_array)
-#     class_names = ['Real', 'Fake']
-#     predicted_label = np.argmax(prediction)
-#     result = class_names[predicted_label]
-
-#     # Display the result
-#     st.image(img, caption=f'Uploaded Image - Predicted as {result}', width=250, use_column_width=False)
-
 if uploaded_image is not None:
     # Display the uploaded image
     image = Image.open(uploaded_image)
