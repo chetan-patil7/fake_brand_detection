@@ -7,7 +7,7 @@ This project involves detecting fake brand logos using a Convolutional Neural Ne
 - [Installation](#installation)
 - [Dataset](#dataset)
 - [Deployment](#deployment)
-- [Screeshots](#Screesnshots)
+- [Screenshots](#Screenshots)
 - [Dockerfile](#Dockerfile)
 - [Usage](#usage)
 - [Contributing](#contributing)
