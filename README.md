@@ -68,10 +68,6 @@ streamlit run app.py
 The Streamlit app allows users to upload an image, which is then processed and classified as either genuine or fake.
 
 ## Dockerfile
-Certainly! Here is a brief summary for the Dockerfile to include in your README.md file.
-
----
-
 ## Docker Setup
 
 To facilitate easy deployment and ensure a consistent environment, a Dockerfile is provided to containerize the application.
