@@ -7,6 +7,7 @@ This project involves detecting fake brand logos using a Convolutional Neural Ne
 - [Installation](#installation)
 - [Dataset](#dataset)
 - [Deployment](#deployment)
+- [Screeshots](#Screesnshots)
 - [Dockerfile](#Dockerfile)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -58,6 +59,11 @@ The trained model is deployed using Streamlit. The `app.py` script handles the w
 ```bash
 streamlit run app.py
 ```
+## Screenshots
+![stremlit](https://github.com/chetan-patil7/fake_brand_detection/assets/108519641/65141574-4976-42db-8c3b-04d260edfcdb)
+![stremlit2](https://github.com/chetan-patil7/fake_brand_detection/assets/108519641/f3e2fea3-e9b5-4229-bcd4-c8b6ce37c0db)
+![streamlit3](https://github.com/chetan-patil7/fake_brand_detection/assets/108519641/fc295bb9-6151-48fc-a68c-aee18ba7c3fe)
+![streamlit4](https://github.com/chetan-patil7/fake_brand_detection/assets/108519641/85067257-8880-4f0d-9603-675e462ef525)
 
 The Streamlit app allows users to upload an image, which is then processed and classified as either genuine or fake.
 
