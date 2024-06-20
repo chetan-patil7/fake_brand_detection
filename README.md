@@ -11,7 +11,6 @@ This project involves detecting fake brand logos using a Convolutional Neural Ne
 - [Dockerfile](#Dockerfile)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 Fake brand logos can be misleading and harmful to consumers. This project aims to classify logos as genuine or fake using a deep learning approach. The trained model is deployed as a web application for easy accessibility.
@@ -115,10 +114,5 @@ To use the web application:
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
----
 
 This README file and the associated scripts provide a comprehensive guide to setting up and running the fake brand logo detection project. Feel free to modify and expand it based on your specific needs.
